@@ -17,6 +17,7 @@ Explanation:
 
 
 Java:
+first:
 
 public int numComponents(ListNode head, int[] G) {
     if (G.length == 1) {
@@ -50,11 +51,7 @@ public boolean contain(int[] G, int v) {
 }
 
 
-
-
-
-
-
+Second:
 public int numComponents(ListNode head, int[] G) {
     Set<Integer> setG = new HashSet<>();
     for (int i: G) setG.add(i);
