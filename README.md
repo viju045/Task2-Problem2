@@ -40,7 +40,6 @@ public int numComponents(ListNode head, int[] G) {
     }
     return count;
 }
-
 public boolean contain(int[] G, int v) {
     for (int t : G) {
         if (t == v) {
