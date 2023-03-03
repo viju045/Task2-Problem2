@@ -20,6 +20,8 @@ Output: 2
 Explanation: 
 0 and 1 are connected, 3 and 4 are connected, so [0, 1] and [3, 4] are the two connected components.
 
+
+
 class Solution {
     public int numComponents(ListNode head, int[] G) {
         Set<Integer> Gset = new HashSet<>();
