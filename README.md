@@ -20,14 +20,7 @@ Output: 2
 Explanation: 
 0 and 1 are connected, 3 and 4 are connected, so [0, 1] and [3, 4] are the two connected components.
 
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) { val = x; }
- * }
- */
+Java:
 
 class Solution {
     public int numComponents(ListNode head, int[] G) {
